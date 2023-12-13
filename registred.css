@@ -1,0 +1,110 @@
+body {
+    background-color: #ffeaed93;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Relway',sans-serif;
+    
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+}
+.products{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product{
+    position: relative;
+    background-color: #f7f6f9;
+    width: 350px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+}
+.image{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+}
+.image img{
+    width: 100%;
+}
+.nameprice{
+    width: 80%;
+    display: flex;
+    font-weight: bold;
+    justify-content:space-between;
+}
+.nameprice h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: black;
+    padding-bottom: 20;
+}
+.product p{
+    font-size: 13px;
+    line-height: 10px;
+    padding-bottom: 22;
+}
+.buy{
+   position:absolute;
+   bottom: 20px;
+   right: 20px; 
+}
+.buy button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    
+}
+
+.buy button a{
+
+    text-decoration: none;
+    color: aqua;
+}
+
+.buy button:hover{
+    transform: scale(1.1);
+}

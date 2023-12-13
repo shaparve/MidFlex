@@ -1,0 +1,189 @@
+/* Style for the entire page */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Style for the header */
+header {
+	background-image: url(header3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color: #fff;
+	padding: 0px;
+	text-align: center;
+}
+
+.img1{
+
+	height: 200px;
+	width: 200px;
+}
+
+.profile{
+
+	height: 150px ;
+	width: 150px;
+}
+/* Style for the navigation menu */
+nav{
+	display:inline-flex;
+    border: 10px;
+    text-align: left;
+    
+
+
+    
+}
+nav a {
+	color: #333333;
+	display:block;
+	padding: 20px;
+	text-decoration: none;
+    font-size: 20px;
+    font-weight: bold ;
+}
+
+nav a:hover {
+	background-color: rgb(2, 48, 2);
+	color: #ffffff;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.left {
+	float: left;
+	width: 70%;
+	background-color: whitesmoke;
+	padding-left: 200px;
+	padding-bottom: 260px;
+	padding-top: 260px;
+	box-sizing: border-box;
+	text-align: left;
+}
+.right {
+	float: right;
+	width: 30%;
+	background-color: gray;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 90px;
+	padding-top: 80px;
+	box-sizing: border-box;
+	text-align: left;
+	
+}
+
+
+
+.font{
+
+	font-size: 20px;;
+
+}
+
+.container{
+
+    background-attachment: fixed;
+}
+
+
+
+.buy{
+	
+	font-size: 50px;
+	font-family: serif;
+	font-weight : bold;
+    background-attachment: fixed;  
+
+}
+
+.td1{
+
+	background-color: gray;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 130px;
+  width : 400px;
+
+
+}
+
+.td2{
+
+	background-color: gray;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 130px;
+  width : 400px;
+
+}
+
+.td3{
+
+	background-color: gray;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 130px;
+  width : 400px;
+
+}
+
+.td4{
+
+	background-color: gray;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 130px;
+  width : 400px;
+
+}
+
+.sell{
+
+	
+	font-size: 50px;
+	font-family: serif;
+	font-weight : bold;  
+
+}
+
+
+
+
+
+
+
+/* Style for the footer */
+footer {
+	background-color: #ccc;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}

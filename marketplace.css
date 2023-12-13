@@ -1,0 +1,183 @@
+body{
+
+    background-image: url(background2.jpg);
+    background-attachment: fixed;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.table2{
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: transparent;
+    border-collapse: separate;
+    background-color:  rgba(255, 255, 255, .7);
+
+}
+
+.td2{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+
+}
+
+.table1{
+   
+
+    height: 500px;
+    width: 400px;
+    border-top-style:hidden ;
+    border-right-style: hidden ;
+    border-bottom-style: hidden  ;
+    border-left-style: hidden;
+    border-collapse : collapse;
+    border-spacing: 30px;
+    background-color:  rgba(255, 255, 255, 0.);
+   
+   
+}
+.tabhead{
+
+    font-size: 20px;
+    text-align: left;
+    border-top-style:hidden ;
+    border-right-style: hidden ;
+    border-bottom-style: hidden ;
+    border-left-style: solid;
+    background-color:  rgba(120, 15, 15, 0);
+
+}
+
+.tabhead1{
+
+    font-size: 24px;
+    text-align: center;
+    border-top-style:solid ;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+
+
+}
+.tabhead2{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-top-style:solid ;
+    border-right-style: hidden ;
+    border-bottom-style: solid ;
+    border-left-style: hidden;
+
+
+}
+
+input{
+
+    display: flex ;
+    width: calc(100% );
+    font-size: 17px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.5);
+    
+    
+    
+
+}
+
+select{
+
+    display: flex ;
+    width: 200px;
+    size: 50px;
+    border: hidden;
+    font-size: 17px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+
+
+}
+.tabdata{
+
+    font-size: 16px;
+    text-align: left;
+}
+
+.tabdata1{
+
+    font-size: 20px;
+    text-align: left;
+}
+th,td{
+
+ 
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style:solid;
+    border-top: hidden;
+
+}
+
+.table3{
+
+
+    border-collapse: separate;
+    border-top-style:  inset;
+    border-right-style :outset;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    
+    
+}
+
+.card{
+    padding-right: -10px;
+}
+
+.imgnew{
+
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.text{
+
+    margin-left: 40%;
+    font-size: 18px;
+
+}
+
+span{
+
+    text-align: center;
+
+}
+
+.buto{
+
+    margin-left: 200px;
+
+}
+
+.p{
+
+    margin-left: 40%;
+    font-size: 15px;
+
+}

@@ -1,0 +1,166 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.container{
+
+    position: relative;
+    max-width: 40%;
+    width : 80%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 30px;
+    margin : 30px 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,1);
+    
+}
+
+.container header{
+
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color : #333;
+    text-align: center;
+}
+
+.container header::before{
+
+    content: "";
+    position:absolute;
+    text-align: center;
+    left: 0;
+    bottom: -1.5px;
+    height: 3px;
+    margin-left: 40%;
+    width: 25px;
+    border-radius: 8px;
+    background: #4070f4;
+
+}
+
+.container form{
+
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container form .details{
+
+    margin-top: 30px;
+}
+
+.container form .title{
+
+    display: block;
+    margin-bottom: 8px;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 6px 0;
+   color : #333;
+}
+
+.container form .fields{
+
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    
+}
+
+form .fields .input-field{
+
+    display: flex ;
+    
+    width: 90%;
+    flex-direction: column;
+    margin: 4px 0;
+   
+
+
+}
+
+.input-field label{
+
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 50px ;
+    font-weight: 500;
+    color : #2e2e2e
+}
+
+.input-field input{
+
+    outline: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0 15px;
+    height: 42px;
+    margin-top: 10px ;
+    margin-bottom:10px ;
+    margin-left: 50px ;
+    margin-right: 20px ;
+}
+
+.input-field input:is(:focus, :valid){
+
+    box-shadow: 0 3px 6px rgbe(0,0,0,0,13);
+
+
+}
+
+
+.Register{
+
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    font-weight: bold;
+    
+
+}
+
+.home{
+
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    font-weight: bold;
+    margin-left: 47px;
+    color: black;
+    
+}
+
+
+
+
+
